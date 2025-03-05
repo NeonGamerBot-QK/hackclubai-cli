@@ -52,9 +52,8 @@
 
 // deno-lint-ignore no-explicit-any
 const { Deno } = globalThis as any;
-const noColor = typeof Deno?.noColor === "boolean"
-  ? Deno.noColor as boolean
-  : false;
+const noColor =
+  typeof Deno?.noColor === "boolean" ? (Deno.noColor as boolean) : false;
 
 interface Code {
   open: string;
