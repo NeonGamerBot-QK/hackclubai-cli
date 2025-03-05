@@ -17,3 +17,4 @@ To install the Hackclub AI CLI, you need to have [Deno](https://deno.land/) inst
 
 ```sh
 deno compile --allow-env --allow-net --allow-run --output dist/hackclub-ai main.ts
+```
